@@ -13,6 +13,7 @@ Selenium Webdriver specs using Ruby bindings.  Tests running on Firefox browser 
 
 - Clone Repo: `git@github.com:PaulSouthern/equal_experts.git`
 - Run from root: `bundle exec rspec spec`
+- Spec video: `./equal_experts_specs.mov`
 
 #### Test Output
 

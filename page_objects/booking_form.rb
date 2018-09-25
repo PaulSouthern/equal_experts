@@ -22,7 +22,7 @@ class BookingForm
     @driver.find_element(id: 'checkout').send_keys(check_out)
     @driver.find_element(css: 'input[value=" Save "]').click
     # Wait until record added
-    wait(3).until { @driver.find_elements(class: 'row').last(2).first.attribute("id") != record_id }
+    wait(5).until { @driver.find_elements(class: 'row').last(2).first.attribute("id") != record_id }
     page_refresh
     wait_for_ajax
   end
